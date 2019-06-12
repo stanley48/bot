@@ -1,0 +1,25 @@
+/* animation definitions */
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes slidein{
+    from{margin: 0 -50px;}
+    to{margin: 0;}
+}
+
+@keyframes show{
+    from{display: none;}
+    to{display: auto;}
+}
+
+@keyframes rotate{
+    from{transform: rotatex(0deg);}
+    to{transform: rotatex(360deg);}
+}
+
+@keyframes wave{
+    from{bottom: 0vmin;}
+    to{bottom: 5vmin;}
+}

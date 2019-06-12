@@ -1,0 +1,31 @@
+:root{
+    --color-blue-darkest: #222f57;
+    --color-blue-dark: #32488d;
+    --color-blue-mid: #426cda;
+    --color-blue-light: #84a6fa;
+    --color-blue-lightest: #bbceff;
+}
+
+.main{
+    background-color:var(--color-blue-light) !important;
+}
+
+.bg-dark{
+    background-color: var(--color-blue-darkest) !important;
+}
+
+.bg-secondary{
+    background-color: var(--color-blue-dark) !important;
+}
+
+.card.bg-light{
+    background-color: var(--color-blue-lightest) !important;
+}
+
+.text-secondary{
+    color: var(--color-blue-darkest) !important;
+}
+
+.btn-dark{
+    background-color: var(--color-blue-dark) !important;
+}

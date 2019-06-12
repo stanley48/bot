@@ -1,0 +1,25 @@
+.container-fluid{
+    position: fixed;
+    top: 4vh;
+    height: 75vh;
+    z-index: 10;
+}
+
+.navbar{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.chat-space{
+    height: 65vh !important;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+.container{
+    margin: 2vmin 0;
+}
+
+.input-group{
+    margin: 0;
+    padding: 0;
+}

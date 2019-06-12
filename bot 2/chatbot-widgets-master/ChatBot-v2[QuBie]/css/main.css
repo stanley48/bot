@@ -1,0 +1,93 @@
+:root{
+    --border-radius: 10px;
+}
+/* Style for the whole content */
+.container-fluid{
+    position: fixed;
+    top: 10vmin;
+    bottom: 0vmin;
+    right: 0vmin;
+    height: 80%;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    max-width: 430px !important;
+    border-radius: var(--border-radius);
+}
+
+/* Navigation Bar */
+.navbar{
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+/* Everything below Navigation Bar */
+.main{
+    height: 90% !important;
+    padding: 2vmin 0;
+    background-color: #babdc0 !important;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+/* Chat dialog Area */
+.chat-space{
+    height: 85%;
+    margin: 2vmin;
+    overflow-y: scroll;  
+}
+
+/* Individual Dialog Bubble */
+
+.card{
+    margin: 1vmin !important;
+    max-width: 80% !important;
+    animation: rotate-flip 1s ease-in-out, fadein 1s ease, slidein 1s linear;
+}
+.card-body{
+    max-width: 85% !important;
+}
+.text{
+    flex-wrap: wrap;
+    word-wrap: break-word !important;
+    animation: show 1s linear 1.5s;
+}
+
+/* Input Group */
+.input-group{
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    width: 96%;
+}
+
+/* Pop-Up Button */
+.popup-box{
+    bottom: 2vmin;
+    right: 2vmin;
+}
+.btn-popup{
+    float: right;
+}
+
+.fa-robot.btn-open{
+    position: relative;
+    animation: wave-sm 1s linear 0s infinite alternate, fadein 1s linear ;
+    transition-delay: display 1s linear;
+}
+
+.fa-times{
+    animation: rotate 1s linear, fadein 1s linear !important;
+}
+
+/* Media Query Definitons */
+@media (min-width: 500px){
+    
+    .container-fluid{
+        right: 2vmin;
+    }
+
+    .input-group{
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+}

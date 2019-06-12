@@ -1,0 +1,5 @@
+.wait-filler{
+    font-size: 15vmin;
+    position: relative;
+    animation: wave 0.5s ease-in-out 0s infinite alternate, fadein 0.5s linear;
+}

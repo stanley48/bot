@@ -1,0 +1,61 @@
+/* animation definitions */
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fadeout{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+@keyframes slidein{
+    from{margin: 0 -50px;}
+    to{margin: 0;}
+}
+
+@keyframes slidein-lg{
+    from{margin: 0 -400px;}
+    to{margin: 0;}
+}
+
+@keyframes slideout-lg{
+    from{margin: 0 0;}
+    to{margin: 0 -400px;}
+}
+
+@keyframes growup{
+    from{height: 8%; width: 5%;}
+    to{height: 80%; width: 100%;}
+}
+
+@keyframes shrinkdown{
+    from{height: 80%;}
+    to{height: 8%;}
+}
+
+@keyframes show{
+    from{display: none;}
+    to{display: auto;}
+}
+
+@keyframes rotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(90deg);}
+}
+
+@keyframes rotate-flip{
+    from{transform: rotateX(0deg);}
+    to{transform: rotateX(360deg);}
+}
+
+@keyframes wave{
+    from{bottom: 0vmin;}
+    to{bottom: 5vmin;}
+}
+
+@keyframes wave-sm{
+    0%{bottom: 0vmin;}
+    80%{bottom: 0vmin;}
+    100%{bottom: 1vmin;}
+}

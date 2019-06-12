@@ -1,0 +1,48 @@
+/* Common to the whole page */
+:root{
+    overflow: hidden;
+}
+/* Everything below Navigation Bar */
+.main{
+    height: 100% !important;
+    padding: 2vmin 0;
+}
+
+/* Chat dialog Area */
+.chat-space{
+    height: 75vh;
+    margin: 2vmin;
+    overflow-y: scroll;  
+}
+
+/* Individual Dialog Bubble */
+.main{
+    background-color: #babdc0 !important;
+}
+
+.card{
+    margin: 1vmin !important;
+    max-width: 80% !important;
+    animation: rotate 1s ease-in-out, fadein 1s ease, slidein 1s linear;
+}
+.card-body{
+    max-width: 85% !important;
+}
+.text{
+    flex-wrap: wrap;
+    word-wrap: break-word !important;
+    animation: show 1s linear 1.5s;
+}
+
+/* Input Group */
+.input-group{
+    padding: 0;
+}
+
+/* Media Query Definitons */
+@media (max-width: 600px){
+    .container-fluid{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

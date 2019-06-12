@@ -1,0 +1,41 @@
+:root{
+    --color-blue-darkest: #222f57;
+    --color-blue-dark: #32488d;
+    --color-blue-mid: #426cda;
+    --color-blue-light: #84a6fa;
+    --color-blue-lightest: #bbceff;
+    --color-blue-bright: #0b2e8d;
+    --color-green-darkest: #021e07;
+    --color-green-dark: #0b5c04;
+    --color-green-light: #31c110;
+    --color-green-lightest: #61a845;
+    --color-blue-green-grad: linear-gradient(to top left, #198908 0%, #082db4 100%);
+}
+
+.main{
+    background:var(--color-blue-green-grad) !important;
+}
+
+.bg-dark{
+    background-color: var(--color-blue-bright) !important;
+}
+
+.bg-secondary{
+    background-color: var(--color-green-dark) !important;
+}
+
+.card.bg-light{
+    background-color: var(--color-blue-darkest) !important;
+}
+
+.text-secondary{
+    color: var(--color-blue-darkest) !important;
+}
+
+.btn-primary{
+    background: var(--color-blue-green-grad);
+}
+
+.btn-dark{
+    background-color: var(--color-green-dark) !important;
+}
